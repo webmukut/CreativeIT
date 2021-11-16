@@ -112,10 +112,43 @@ Faculty Part Start
 	margin-bottom: 4%;
 }
 
-
-
-
-
+/* ********************************************************************************************************************************
+Memories Part Start
+******************************************************************************************************************************** */
+#memories-part h4 {
+	padding: 10%;
+}
+#memories-part a {
+	background-color: #43A1F6;
+	width: 100%;
+	padding: 7% 15%;
+    color: #fff;
+}
+#memories .gallery{
+    display: flex;
+    flex-wrap: wrap;
+}
+#memories .gallery a {
+	width: 25%;
+	margin-top: 1%;
+}
+#memories .gallery a img {
+	width: 95%;
+}
+#memories h3 {
+	font-size: 50px;
+	opacity: 0.5;
+	padding-bottom: 7%;
+}
+.click {
+	margin-top: 25%;
+}
+.click a {
+	background-color: #43A1F6;
+	width: 100%;
+	padding: 7% 15%;
+    color: #fff;
+}
 
 
 
@@ -158,6 +191,9 @@ media only screen and (max-width: 768px)
         padding: 20%;
         margin-top: 20%;
     }
+    .rajib-sir img {
+        width: 30%;
+    }
      
 }
 /* ********************************************************************************************************************************
@@ -177,6 +213,9 @@ media only screen and (max-width: 480px)
         .banner-part {
             padding: 0%;
             margin-top: 20%;
+        }
+        .rajib-sir img {
+            width: 50%;
         }
 }
 /* ********************************************************************************************************************************
