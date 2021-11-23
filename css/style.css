@@ -83,6 +83,18 @@ Quick Plugins Start
 	background-color: #3E95D6;
 	transition: .5s;
 }
+.keyframe{
+	position: relative;
+}
+.box{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: red;
+	height: 50px;
+	width: 50px;
+}
 /* ********************************************************************************************************************************
 section Part Start
 ******************************************************************************************************************************** */
@@ -418,7 +430,6 @@ media only screen and (max-width: 480px)
         margin: 1px auto;
         font-size: 12px;
         margin: 0 2px;
-        z-index: -1;
     }
     .logo-img img{
         width: 80%;
@@ -430,6 +441,9 @@ media only screen and (max-width: 480px)
         .rajib-sir img {
             width: 50%;
         }
+		.faculty-grp li img{
+			z-index: -1;
+		}
 }
 /* ********************************************************************************************************************************
 media only screen and (max-width: 599px)
