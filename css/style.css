@@ -328,8 +328,18 @@ Back to top button
 	border-radius: 50%;
 	height: 50px;
 	width: 50px;
+	animation: myAnim 5s cubic-bezier(0.11, 0, 0.5, 0) 1s infinite normal none;
 	
 }
+@keyframes myAnim {
+	0% {
+	  transform: rotate(0);
+	}
+  
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
 #myBtn i {
 	margin-bottom: 4px;
 	display: block;
