@@ -1,22 +1,26 @@
-// As A Vanilla JavaScript Plugin
-var gallery = new SimpleLightbox('.gallery a', { 
-  /* options */
-  // spinner:true,
-  // overlay:true,
-	// nav:true, 
-});
+$(document).ready(function(){
+                  $('.venobox').venobox({
+                    arrowsColor : '#B6B6B6', 
+                    framewidth : '80%',                            // default: ''
+                    share      : ['facebook'], // default: []
+                    titleattr  : 'data-title',                       // default: 'title'
+                    numeratio  : true,                               // default: false
+                    infinigall : true,                               // default: false
+                  }); 
+                 
+              });
+        
 
-// As A jQuery Plugin -->
-var gallery = $('.gallery a').simpleLightbox({
-  /* options */
-});
+        
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
 
-// wow box
-// A $( document ).ready() block.
-$( document ).ready(function() {
-  wow.init();
-});
+        new WOW().init();
+
+       
 
 
-// Back to top button
 
