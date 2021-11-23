@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style-type: none;
+}
+img{
+    vertical-align: center;
+}
+/* ********************************************************************************************************************************
+Heading Part Start
+******************************************************************************************************************************** */
+#ready-plugins {
+	margin: 50px 0;
+}
+.quick-css-pg h5 {
+	padding-bottom: 65px;
+}
+.quick-css-pg h5 span{
+    color: #43A1F6;
+}
+.box-shadow {
+	margin-bottom: 100px;
+}
+.box-shadow img {
+	width: 50%;
+}
+@media only screen and (max-width: 768px) {
+    .box-shadow img {
+        width: 100%;
+    }
+  }
+.box-shadow h5 {
+	padding: 0px 0 10px 0;
+	font-size: 20px;
+}
+.customlinks h6 {
+	padding: 0 0 8px 0 !important;
+	margin: 0 !important;
+}
+.customlinks a {
+	background-color: #43A1F6;
+	padding: 10px 15px;
+	display: inline-block;
+	color: white;
+	margin-top: 10px;
+}
+.clip-path h6 {
+	padding-top: 15px !important;
+}
